@@ -1,0 +1,28 @@
+{
+  "name": "react-ssr-promise",
+  "version": "1.0.0",
+  "description": "Redux middleware to collect promises and render when all are fulfilled.",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "./node_modules/.bin/tsc -p ./tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f9software/react-ssr-promise.git"
+  },
+  "keywords": [],
+  "author": "Iulian Ilea <iulian@f9software.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f9software/react-ssr-promise/issues"
+  },
+  "homepage": "https://github.com/f9software/react-ssr-promise#readme",
+  "devDependencies": {
+    "@types/redux": "^3.6.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "redux": "^4.0.0"
+  }
+}
